@@ -1,0 +1,68 @@
+{
+	"name": "@morev/boilerplater",
+	"description": "Boilerplate files generator",
+	"type": "module",
+	"version": "0.0.0",
+	"engines": {
+		"node": ">=16"
+	},
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"author": {
+		"name": "Maxim Morev",
+		"email": "max.seainside@gmail.com"
+	},
+	"homepage": "https://github.com/MorevM/boilerplater#readme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MorevM/boilerplater"
+	},
+	"keywords": [],
+	"files": [
+		"dist",
+		"locales"
+	],
+	"exports": {
+		".": "./dist/index.js"
+	},
+	"main": "dist/index.js",
+	"module": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"prepare": "husky install ./.husky",
+		"vscode-settings": "cp .vscode/settings.template.json .vscode/settings.json",
+		"release": "release-it --disable-metrics",
+		"lint": "yarn lint:eslint",
+		"lint:fix": "yarn lint:eslint:fix",
+		"lint:eslint": "eslint \"**/*.{js,ts,vue,json,json5,jsonc,yml,yaml,md}\"",
+		"lint:eslint:fix": "eslint \"**/*.{js,ts,vue,json,json5,jsonc,yml,yaml,md}\" --fix",
+		"build": "tsup",
+		"test": "@echo TODO;"
+	},
+	"dependencies": {
+		"@morev/helpers": "^0.14.1",
+		"chalk": "^5.0.1",
+		"commander": "^9.2.0",
+		"commonjs-variables-for-esmodules": "^1.1.0",
+		"figures": "^4.0.1",
+		"i18n": "^0.14.2",
+		"inquirer": "^8.2.2"
+	},
+	"devDependencies": {
+		"@morev/commitlint-config": "^0.1.1",
+		"@morev/eslint-config": "^11.1.1",
+		"@release-it/conventional-changelog": "^4.3.0",
+		"@types/i18n": "^0.13.2",
+		"@types/inquirer": "^8.2.1",
+		"@types/jest": "^27.4.1",
+		"eslint": "^8.13.0",
+		"husky": "^7.0.4",
+		"jest": "^27.5.1",
+		"lint-staged": "^12.3.8",
+		"release-it": "^14.14.2",
+		"tsup": "^5.12.5"
+	}
+}

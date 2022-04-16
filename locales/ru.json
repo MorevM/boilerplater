@@ -1,0 +1,11 @@
+{
+	"Directory '%s' already exists": "Директория '%s' уже существует",
+	"Directory '%s' successfully created": "Директория '%s' успешно создана",
+	"Template '%s' not found": "Шаблон '%s' не найден",
+	"File '%s' already exists": "Файл '%s' уже существует",
+	"File '%s' successfully created": "Файл '%s' успешно создан",
+	"Unable to create file '%s'": "Невозможно создать файл '%s'",
+	"Content to modify already in use in '%s'": "Контент для модификации уже используется в '%s'",
+	"File '%s' successfully updated": "Файл '%s' успешно обновлён",
+	"File '%s' doesn't exists or locked": "Файл '%s' не существует или заблокирован"
+}

@@ -1,0 +1,11 @@
+{
+	"Directory '%s' already exists": "Directory '%s' already exists",
+	"Directory '%s' successfully created": "Directory '%s' successfully created",
+	"Template '%s' not found": "Template '%s' not found",
+	"File '%s' already exists": "File '%s' already exists",
+	"File '%s' successfully created": "File '%s' successfully created",
+	"Unable to create file '%s'": "Unable to create file '%s'",
+	"Content to modify already in use in '%s'": "Content to modify already in use in '%s'",
+	"File '%s' successfully updated": "File '%s' successfully updated",
+	"File '%s' doesn't exists or locked": "File '%s' doesn't exists or locked"
+}
