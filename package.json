@@ -40,7 +40,7 @@
 		"lint:eslint": "eslint \"**/*.{js,ts,vue,json,json5,jsonc,yml,yaml,md}\"",
 		"lint:eslint:fix": "eslint \"**/*.{js,ts,vue,json,json5,jsonc,yml,yaml,md}\" --fix",
 		"build": "tsup",
-		"test": "@echo TODO;"
+		"test": "echo TODO;"
 	},
 	"dependencies": {
 		"@morev/helpers": "^0.14.1",
