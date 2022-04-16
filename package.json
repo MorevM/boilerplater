@@ -2,7 +2,7 @@
 	"name": "@morev/boilerplater",
 	"description": "Boilerplate files generator",
 	"type": "module",
-	"version": "0.0.0",
+	"version": "0.0.1",
 	"engines": {
 		"node": ">=16"
 	},
