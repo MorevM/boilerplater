@@ -49,7 +49,7 @@
 		"commonjs-variables-for-esmodules": "^1.1.0",
 		"figures": "^4.0.1",
 		"i18n": "^0.14.2",
-		"inquirer": "^8.2.2"
+		"inquirer": "^8.2.4"
 	},
 	"devDependencies": {
 		"@morev/commitlint-config": "^0.1.1",
