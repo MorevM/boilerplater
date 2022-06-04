@@ -43,7 +43,7 @@
 		"test": "echo TODO;"
 	},
 	"dependencies": {
-		"@morev/helpers": "^0.14.1",
+		"@morev/helpers": "^0.19.2",
 		"chalk": "^5.0.1",
 		"commander": "^9.2.0",
 		"commonjs-variables-for-esmodules": "^1.1.0",
