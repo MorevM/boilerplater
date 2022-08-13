@@ -47,7 +47,7 @@
 		"chalk": "^5.0.1",
 		"commander": "^9.2.0",
 		"commonjs-variables-for-esmodules": "^1.1.0",
-		"figures": "^4.0.1",
+		"figures": "^5.0.0",
 		"i18n": "^0.14.2",
 		"inquirer": "^8.2.2"
 	},
