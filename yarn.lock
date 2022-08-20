@@ -917,10 +917,10 @@
     vue-eslint-parser "^8.1.0"
     yaml-eslint-parser "^0.5.0"
 
-"@morev/helpers@^0.14.1":
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/@morev/helpers/-/helpers-0.14.1.tgz#18ec76b3ea5916066f0749b3fc5c54144b49301c"
-  integrity sha512-LPMTHpx+FX6IToZMIPMDhT0bUBwFvCy64A90idWrFA5mFQMv66FaXi8qs1wDv5w3NpbvbYYN8nQWxBWfS1zCww==
+"@morev/helpers@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@morev/helpers/-/helpers-1.1.0.tgz#16b42ac9371d4152f1a92abbe73ecb71c746b2cb"
+  integrity sha512-SjcXAFjfOfiZf9Nc1pEr3KdjaeEzO4zFMA4fEYFE9N8TkIoJjgo/sOYzGAewyNxID40crqmLRFw2kPhTLha06w==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
