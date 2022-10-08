@@ -44,7 +44,7 @@
 	},
 	"dependencies": {
 		"@morev/helpers": "^0.14.1",
-		"chalk": "^5.0.1",
+		"chalk": "^5.1.0",
 		"commander": "^9.2.0",
 		"commonjs-variables-for-esmodules": "^1.1.0",
 		"figures": "^4.0.1",
